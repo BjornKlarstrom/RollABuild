@@ -1,29 +1,32 @@
 using System;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] float moveSpeed = 0f;
     Rigidbody rb;
-    float movementX;
-    float movementY;
-    [SerializeField] float speed = 0f;
+    Touch firstTouch;
+    Vector3 targetPosition;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
-    
-    void OnMove(InputValue movementValue)
+
+    void Update()
     {
-        var movementVector = movementValue.Get<Vector2>();
-        this.movementX = movementVector.x;
-        this.movementY = movementVector.y;
-    }
-    
-    void FixedUpdate()
-    {
-        var movement = new Vector3(this.movementX, 0f, this.movementY);
-        rb.AddForce(movement * this.speed);
+        if (Input.touchCount > 0)
+        {
+            firstTouch = Input.GetTouch(0);
+        }
     }
 
+    Vector3 SetTargetPosition()
+    {
+        var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out var hitInfo))
+        {
+            this.transform.position = hitInfo.point;
+        }
+    }
 }
