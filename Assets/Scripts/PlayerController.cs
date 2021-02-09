@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        Input.gyro.enabled = true;
     }
 
     void Update()
@@ -18,15 +19,22 @@ public class PlayerController : MonoBehaviour
         if (Input.touchCount > 0)
         {
             firstTouch = Input.GetTouch(0);
+            SetTargetPosition();
+            MoveToTarget();
         }
     }
 
-    Vector3 SetTargetPosition()
+    void SetTargetPosition()
     {
         var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out var hitInfo))
         {
-            this.transform.position = hitInfo.point;
+            targetPosition = hitInfo.point;
         }
+    }
+    void MoveToTarget()
+    {
+        this.transform.position = Vector3.MoveTowards(
+            transform.position, targetPosition, moveSpeed * Time.deltaTime);
     }
 }
