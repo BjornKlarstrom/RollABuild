@@ -32,7 +32,7 @@ public class DragToShoot : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             var currentPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            DrawLine(startPoint, currentPoint);
+            //DrawLine(startPoint, currentPoint);
         }
 
         if (Input.GetMouseButtonUp(0))
@@ -41,8 +41,8 @@ public class DragToShoot : MonoBehaviour
         }
     }
 
-    void DrawLine(Vector3 startPoint, Vector3 endPoint)
+    /*void DrawLine(Vector3 startPoint, Vector3 endPoint)
     {
         throw new NotImplementedException();
-    }
+    }*/
 }
