@@ -176,7 +176,7 @@
           <e p="DragToShoot.cs" t="Include" />
           <e p="FloatingJoystick.cs" t="Include" />
           <e p="Joystick.cs" t="Include" />
-          <e p="JoystickPlayerExample.cs" t="Include" />
+          <e p="JoystickMoveController.cs" t="Include" />
           <e p="LabyrinthController.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
         </e>
