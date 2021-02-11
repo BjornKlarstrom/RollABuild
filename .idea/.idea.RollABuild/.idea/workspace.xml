@@ -22,9 +22,12 @@
     <list default="true" id="2afdb370-f8b7-4268-9823-b5f22f2e60b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABuild/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABuild/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABuild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABuild/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BallSwiper.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BallSwiper.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveToTouchController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveToTouchController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BallSwiper.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BallSwiper.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MoveToTouch.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MoveToTouch.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MoveToTouch.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MoveToTouch.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwipeBallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JoystickMoveController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PathMover.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,6 +56,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/JoystickMoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwipeBallController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveToTouchController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PathMover.cs" />
       </list>
     </option>
   </component>
@@ -101,7 +106,7 @@
       <workItem from="1612867264695" duration="3964000" />
       <workItem from="1612873521252" duration="21967000" />
       <workItem from="1612914869057" duration="94000" />
-      <workItem from="1612984839949" duration="10678000" />
+      <workItem from="1612984839949" duration="12583000" />
     </task>
     <servers />
   </component>
