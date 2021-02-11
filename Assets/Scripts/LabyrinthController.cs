@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LabyrinthController : MonoBehaviour
 {
-    [SerializeField] float speed = 10.0f;
+    [SerializeField] float force = 10.0f;
     Rigidbody rb;
 
     void Start()
@@ -15,6 +15,6 @@ public class LabyrinthController : MonoBehaviour
         var horizontalForce = Input.acceleration.x;
         var verticalForce = Input.acceleration.y;
 
-        rb.AddForce(horizontalForce * speed,0f,verticalForce * speed);
+        rb.AddForce(horizontalForce * force,0f,verticalForce * force);
     }
 }

@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2afdb370-f8b7-4268-9823-b5f22f2e60b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABuild/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABuild/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LabyrinthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LabyrinthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PathDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PathDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PathDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PathDrawer.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PathMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PathMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PathMover.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PathMover.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +48,12 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LabyrinthController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DragToShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JoystickPlayerExample.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JoystickMoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwipeBallController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveToTouchController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LabyrinthController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PathMover.cs" />
       </list>
     </option>
@@ -101,7 +105,7 @@
       <workItem from="1612873521252" duration="21967000" />
       <workItem from="1612914869057" duration="94000" />
       <workItem from="1612984839949" duration="12986000" />
-      <workItem from="1613028768795" duration="431000" />
+      <workItem from="1613028768795" duration="6077000" />
     </task>
     <servers />
   </component>
@@ -126,6 +130,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="259" key="Rider.ProjectTemplateDialog.Size" timestamp="1613045203343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="259" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1613045203343" />
     <state x="438" y="156" width="1239" height="710" key="SettingsEditor" timestamp="1612993169230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
