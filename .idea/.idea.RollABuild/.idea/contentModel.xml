@@ -178,7 +178,7 @@
           <e p="Joystick.cs" t="Include" />
           <e p="JoystickMoveController.cs" t="Include" />
           <e p="LabyrinthController.cs" t="Include" />
-          <e p="PlayerController.cs" t="Include" />
+          <e p="MoveToTouchController.cs" t="Include" />
           <e p="SwipeBallController.cs" t="Include" />
         </e>
       </e>

@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 72040407}
   - component: {fileID: 72040406}
   - component: {fileID: 72040405}
+  - component: {fileID: 72040408}
   m_Layer: 0
   m_Name: Border (5)
   m_TagString: Untagged
@@ -218,6 +219,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72040403}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &72040408
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72040403}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &190539688
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,7 +548,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619869683}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -18.44}
+  m_LocalPosition: {x: 0.6, y: 1, z: -14.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -546,11 +563,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 619869683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d2f54213445cda46af1aeabeca1c0a6, type: 3}
+  m_Script: {fileID: 11500000, guid: 22e70e5c08eeab842bd51c12c66c8f33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 150
-  rb: {fileID: 619869689}
+  force: 180
 --- !u!54 &619869689
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -566,7 +582,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
