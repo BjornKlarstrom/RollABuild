@@ -408,31 +408,40 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Time: 12
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.5
+    widthMultiplier: 1
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.5970124
-        inSlope: 6.048746
-        outSlope: 6.048746
+        value: 1
+        inSlope: 0
+        outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.1297084
+        outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.4496218
-        value: 0.19455689
+        time: 0.3749429
+        value: 0.6796385
         inSlope: 2.0444403
         outSlope: 2.0444403
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.2960374
         outWeight: 0.34440473
+      - serializedVersion: 3
+        time: 0.5682717
+        value: 0.4121468
+        inSlope: 1.6045854
+        outSlope: 1.6045854
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.58151466
       - serializedVersion: 3
         time: 1
         value: 0
@@ -447,23 +456,23 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.24670699, g: 0.6792453, b: 0.25255522, a: 1}
-      key1: {r: 0.21787113, g: 0.3018868, b: 0.22405802, a: 0}
-      key2: {r: 1, g: 1, b: 1, a: 0.8}
+      key0: {r: 0.2023194, g: 0.5137255, b: 0.19999999, a: 1}
+      key1: {r: 0.7868129, g: 0.7642062, b: 0.7609767, a: 0}
+      key2: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 0.8}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 65535
+      ctime1: 60138
       ctime2: 65535
       ctime3: 0
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
-      atime0: 30840
+      atime0: 14264
       atime1: 65535
       atime2: 57247
       atime3: 65535
@@ -472,7 +481,7 @@ TrailRenderer:
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 2
+      m_NumColorKeys: 3
       m_NumAlphaKeys: 2
     numCornerVertices: 0
     numCapVertices: 0
@@ -481,7 +490,7 @@ TrailRenderer:
     shadowBias: 0.5
     generateLightingData: 0
   m_MinVertexDistance: 0.1
-  m_Autodestruct: 1
+  m_Autodestruct: 0
   m_Emitting: 1
 --- !u!114 &392261276
 MonoBehaviour:
@@ -492,7 +501,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 392261274}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0cecaa3515638e46a72db8f5401a799, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f2be2748b57eb0458aab6b0cf4fada5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!54 &392261277
@@ -581,7 +590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392261274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.26, y: 1, z: -16.38}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -694,10 +703,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 619869683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f2be2748b57eb0458aab6b0cf4fada5, type: 3}
+  m_Script: {fileID: 11500000, guid: a0cecaa3515638e46a72db8f5401a799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acceleration: 50
+  acceleration: 100
 --- !u!54 &619869689
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -755,7 +764,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Time: 3
+  m_Time: 1
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.5
@@ -803,33 +812,33 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.5137255, g: 0.2392157, b: 0.20000002, a: 1}
-      key1: {r: 0.7868129, g: 0.7642062, b: 0.7609767, a: 0}
-      key2: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 0.8}
-      key3: {r: 0, g: 0, b: 0, a: 0}
+      key0: {r: 0.5137255, g: 0.2392157, b: 0.20000002, a: 0.07058824}
+      key1: {r: 0.5137255, g: 0.2392157, b: 0.20000002, a: 1}
+      key2: {r: 0.7868129, g: 0.7642062, b: 0.7609767, a: 1}
+      key3: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 0.018017948}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 60138
-      ctime2: 65535
-      ctime3: 0
+      ctime1: 21974
+      ctime2: 60138
+      ctime3: 65535
       ctime4: 0
       ctime5: 0
       ctime6: 0
       ctime7: 0
-      atime0: 14264
-      atime1: 65535
-      atime2: 57247
+      atime0: 0
+      atime1: 14264
+      atime2: 40478
       atime3: 65535
       atime4: 0
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 3
-      m_NumAlphaKeys: 2
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 4
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
